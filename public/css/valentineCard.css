@@ -1,0 +1,101 @@
+.valentineCard{
+    background-color: #272727;
+    border: #272726 solid 14px;
+    border-radius: 45px;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 520px;
+    height: 700px;
+    transition-duration: 500ms;
+    box-shadow: 30px 30px 50px #cbeef320;
+    cursor: pointer;
+
+}
+
+.valentineCard:hover{
+    scale: 1.1;
+    box-shadow: 30px 30px 50px #dd2d4a25;
+
+}
+
+section > header{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+section > header > h1{
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+
+}
+
+section > main {
+    width: 100%;
+    height: 69%;
+}
+
+section > main > picture{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.gif{
+    width: 100%;
+    height: 100%;
+}
+
+.footerResult{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.answerButton{
+    width: 23%;
+    height: 70%;
+    max-width: 113.16px;
+    max-height: 47.3px;
+    border-radius: 45px;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, .87);
+    cursor: pointer;
+    background-color: #11101066;
+    position: relative;
+    transition-duration: 300ms;
+    border: 0;
+}
+
+.answerButton.si{
+    box-shadow: 15px 15px 50px #dd2d4a90;
+
+}
+.answerButton.no{
+    box-shadow: 15px 15px 50px #cbeef320;
+}
+
+.answerButton.si:hover{
+    scale: 1.4;
+    background-color: #dd2d4a;
+    box-shadow: 0 0 15px #f26a8d;
+}
+.answerButton.no:hover{
+    scale: 1.4;
+    background-color: #111010;
+    box-shadow: 0 0 15px #000000;
+}
+

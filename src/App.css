@@ -1,0 +1,22 @@
+.appMain{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 50%;
+  align-items: center;
+  position: relative;
+}
+
+.valentineArticle{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+
+
+

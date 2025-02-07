@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+}
+/*6f516c*/
+body {
+  margin: 0;
+  background-color: #6f516c;
+  color: rgba(255, 255, 255, .87);
+  font-family: 'Cascadia Code', 'Fira Code', 'Monaco', 'Consolas', monospace;
+}
+
+.backgroundChange0 {
+  background-color: #6f516c;
+}
+
+.backgroundChange1 {
+  background-color: #7f515c;
+}
+
+.backgroundChange2 {
+  background-color: #9f514c;
+}
+
+.backgroundChange3 {
+  background-color: #bf513c;
+}
+
+.backgroundChange4 {
+  background-color: #df513c;
+}
+
+.backgroundChange5 {
+  background-color: #ff513c;
+}
+
+#root{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
