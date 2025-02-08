@@ -96,7 +96,7 @@ const App = () => {
   };
 
   const handleYesClick = () => {
-    if (yesCounter === 1) {
+    if (yesCounter === 1 && noCounter === 0) {
       setGif(yesGifs[2]);
       setMessage("💖Awwww,a la primera!...Te amo💖");
       setShowButton(false);
