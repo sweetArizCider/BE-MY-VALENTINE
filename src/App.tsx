@@ -25,28 +25,28 @@ const yesGifs = [
 ];
 
 const noClickedNoMessages = [
-  "💖Hehe, y si le das que no para ver que pasa? jiji💖",
+  "💖Hehe, ¿y si le das que no para ver qué pasa? jiji💖",
 ];
 
 const messages = [
   "💖Te gustaría ser mi San Valentín?💖",
   "😶‍🌫️...Hehe, creo que no viste bien...💖",
-  "Oh...Te podria comprar algo lindo💖",
-  "💔AH SI??...Te dare otra oportunidad 👍🏼",
-  "OH...PIENSALO BIEN, TOMA TU TIEMPO❗",
+  "Oh...Te podría comprar algo lindo💖",
+  "💔AH SI??...Te daré otra oportunidad 👍🏼",
+  "OH...PIÉNSALO BIEN, TOMA TU TIEMPO❗",
   "...Por favorcito??💔",
   "Te lo ruego...💔",
-  "¿...POR QUE NO???💔",
-  "...Yo solo queria ser tu amor💔",
-  "AH SI??..VAMOS DE NUEVO🔥",
+  "¿...POR QUÉ NO???💔",
+  "...Yo solo quería ser tu amor💔",
+  "AH SÍ??..VAMOS DE NUEVO🔥",
 ];
 
 const madMessages = [
-  "🔥YA NO HABRAN HAMBURGUESITAS🔥",
-  "🔥TOMA TU TIEMPO...AQUI ESTARE🔥",
+  "🔥YA NO HABRÁN HAMBURGUESITAS🔥",
+  "🔥TOMA TU TIEMPO...AQUÍ ESTARÉ🔥",
   "🔥TE GUSTARIA SER MI SAN VALENTIN?🔥",
   "🔥DI QUE SI...O SUFRIRAS LAS CONSECUENCIAS🔥",
-  "🔥TE GUSTARIA SER MI SAN VALENTIN????🔥",
+  "🔥¿TE GUSTARÍA SER MI SAN VALENTIN???🔥",
   "🔥ME DEBES 20 PEPSI'S LIGHT🔥",
   "🔥YA DI QUE SI🔥",
 ];
@@ -115,7 +115,7 @@ const App = () => {
       return;
     }
     setGif(yesGifs[2]);
-    setMessage("💖Sabia que dirias que si!, Te amo💖");
+    setMessage("💖Sabia que dirías que si!, Te amo💖");
     resetBackground();
     setShowButton(false);
     setShowNoButton(false);
