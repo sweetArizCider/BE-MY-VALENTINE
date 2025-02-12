@@ -1,5 +1,4 @@
 # 💖BE-MY-VALENTINE💖
-## React proyect using useState()
 ![Screenshot 2025-02-08 170233](https://github.com/user-attachments/assets/bf84a26f-b1f4-448e-8b31-a89f4ed2d8a7)
 ![Screenshot 2025-02-08 170258](https://github.com/user-attachments/assets/1fc28ae3-a081-4220-a790-945519744de1)
 ![Screenshot 2025-02-08 170327](https://github.com/user-attachments/assets/37be118b-51df-4c23-8c4d-e91f223bb4c4)
