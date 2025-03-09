@@ -99,3 +99,61 @@ section > main > picture{
     box-shadow: 0 0 15px #000000;
 }
 
+
+
+
+@media (max-width: 480px) {
+    .valentineCard {
+        width: 130%; 
+        height: 370px; 
+        border-width: 8px; 
+        border-radius: 15px;
+        box-shadow: 8px 8px 15px #cbeef320;
+    }
+
+    section > header > h1 {
+        padding-top: 1rem;
+        font-size: 1.1rem; 
+        padding: 0.3rem;
+    }
+
+    section > main {
+        height: 55%; /* Reducir la altura del contenido principal */
+    }
+
+    section > main > picture {
+        height: 100%; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gif {
+        width: 100%; 
+        height: auto; /* Mantener la proporción de la imagen */
+        object-fit: contain; /* Evitar que se deforme */
+    }
+
+    .footerResult {
+        height: 15%; /* Ajustar la altura del footer */
+        gap: 5px;
+    }
+
+    .answerButton {
+        margin-top: 4rem;
+        width: 45%; 
+        height: 35px;
+        font-size: 14px; 
+        border-radius: 15px;
+    }
+
+    .answerButton.si, 
+    .answerButton.no {
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .answerButton.si:hover,
+    .answerButton.no:hover {
+        scale: 1.1;
+    }
+}
